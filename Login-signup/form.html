@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+      <meta charset="UTF-8">
+      <title> Registration and sign in page </title>
+      <link rel="stylesheet" href="form.css">    <!-- css file -->
+      <meta name="viewport" content="width=device-width , initial-scale=1.0">     
+   </head>
+   
+   <body>
+        <div class="wrapper">                          <!-- main container -->
+            <div class="title-text">
+                <div class="title login">Login form</div> 
+                <div class="title signup">signup form</div>
+            </div>
+            <div class="form-container">
+                <div class="slide-controls">
+                  <input type="radio" name="slider" id="login" checked >
+                  <input type="radio" name="slider" id="signup" >
+
+                 <label for="login" class="slide login">login</label>
+                 <label for="signup" class="slide signup">signup</label>
+                 <div class="slide-tab"></div>
+            </div>
+            <div class="form-inner">
+                <form action="#" class="login">
+                    <div class="field">
+                        <input type="text" placeholder="Email Address" required>
+                    </div>
+                    <div class="field">
+                        <input type="password" placeholder=" Password" required>
+                    </div>
+                <div class="pass-link"><a href="#">Forgot Password?</a></div>
+                    <div class="field">
+                        <input type="submit" value="Login">
+                    </div>
+                <div class="signup-link">Not a member? <a href="#">signup now</a></div>    
+             </form>
+
+             <form action="#" class="signup">
+                <div class="field">
+                    <input type="text" placeholder="Email Address" required>
+                </div>
+                <div class="field">
+                    <input type="password" placeholder=" Password" required>
+                </div>
+                <div class="field">
+                    <input type="password" placeholder=" confirm Password" required>
+                </div>
+                <div class="field">
+                    <input type="submit" value="signup">
+                </div>
+         </form>
+            </div>
+        </div>    
+        </div>
+        <script src="form.js"></script>
+    </body>
+</html>
